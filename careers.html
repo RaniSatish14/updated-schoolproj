@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My School website </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+        <nav class="navigate">
+            <!-- Menu Navigation -->
+            <a class="menu" href="index.html">Home </a>
+            <a class="menu" href="about.html"> About Us</a>
+            <a class="menu" href="gallery.html"> Gallery </a>
+            <a class="menu" href="facilities.html">List of Facilities </a>
+            <a class="menu" href="enquiry.html"> Contact us </a>
+            <a class="menu" href="event.html"> Events </a>
+            <a class="menu" href="careers.html"> Careers</a>
+        </nav>
+      
+    </header>
+<main><h2>Fill in the details below for the post of primary teacher</h2><br/>
+    <div class="form">
+        <form action="index.html">
+            <div class="details">
+                <div class="input-box">
+                  <label for="fn">First Name:</label>
+                  <input id="fn" type="text" placeholder="Enter your First name" required>
+                </div>
+                <div class="input-box">
+                  <label for="ln">Last Name:</label>
+                  <input id="ln" type="text" placeholder="Enter your Last name" required>
+                </div>
+                <div class="input-box">
+                  <label for="cn">Contact Number: </label>
+                  <input id="cn" type="tel" placeholder="Enter your Contact number" required>
+                </div>
+                <div class="input-box">
+                  <label for="ea"> Email Address:  </label>
+                  <input id="ea" type="email" placeholder="Enter your Email Address" required>
+                </div>
+                <div>
+                  <label> Gender:  </label>
+                  <label for="male" class="input-label"><input type="radio" name="gender" value="male" id="male"> Male</label>
+                  <label for="female" class="input-label"><input type="radio" name="gender" value="female" id="female"> Female</label>
+                </div>
+                <div class="input-box">
+                  <label> Grade: </label>
+                  <select style="width: 80px; padding:5px; font-size:14px">
+                      <option> 4 </option>
+                      <option> 5 </option>
+                      <option> 6 </option>
+                      <option> 7 </option>
+                      <option> 8 </option>
+                      <option> 9 </option>
+                      <option> 10 </option>
+                  </select>
+                </div>
+                <div>
+                  <label style="margin-right: 10px;"> Subjects </label>
+                  <label class="input-label"><input type="checkbox"> Science</label>
+                  <label class="input-label"><input type="checkbox"> Math</label>
+                  <label class="input-label"><input type="checkbox"> Social</label>
+                  <label class="input-label"><input type="checkbox"> Computers</label>       
+                </div>
+                <div class="button">
+                     <input class="click" type="submit" value="Submit"  onclick="() => { alert('Successfully registered!'); window.location.href='index.html'; }"/>
+                  
+                   
+                
+            </div>
+        </form></main>
+</body>
+</html>

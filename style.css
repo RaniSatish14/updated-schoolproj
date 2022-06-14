@@ -1,0 +1,140 @@
+.menu{
+    border: 5px;
+    border-width: 10px;
+    border-style:solid;
+    font-size: medium;
+    font-family:'Times New Roman';
+    font-weight: bold;
+    color:white;
+    padding: auto;
+   
+}
+.navigate{
+    text-align: center;
+}
+.pics{
+    float: right;
+}
+body{
+    background-color: aqua;
+}
+@media (min-width: 500px) { 
+	body { 
+        font-size: 20px; 
+    }
+}
+
+.button {
+    text-align: center; 
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+.click {
+    width: 200px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    background: linear-gradient(to right, #71b7e6, #9b59b6);
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+.click:hover {
+    background: linear-gradient(to left, #71b7e6, #9b59b6);
+    color: black;
+}
+
+.clik:active {
+    background: #9b59b6;
+    color: white;
+}
+
+#register {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content{
+    max-width: 700px;
+    width: 100%;
+    background-color: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.content .header{
+    background-color: #EFF0F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    padding:20px 0;
+    border-bottom:1px solid #cccccc;
+}
+
+.form .details {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form .details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+.form .details .input-box input {
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.form .details .input-box input:hover {
+    border-color: black;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-label {
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+form .button{
+    margin-left: 40%
+}
+.link{
+    text-decoration: darkgreen;
+    text-emphasis: italic;
+}
+@media (min-width: 992px) {
+    body {
+      background: #f3a333;
+    }}
+ @media (min-width: 576px) {
+        body {
+          background: #34a7b2;
+        }}
+ @media (min-width: 768px) {
+            body {
+              background: #729d39;
+            }}
